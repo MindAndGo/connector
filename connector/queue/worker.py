@@ -40,7 +40,7 @@ from ..session import ConnectorSessionHandler
 from .job import (OpenERPJobStorage,
                   PENDING,
                   DONE)
-from ..exception import (NoSuchJobError,
+from openerp.addons.connector.exception import (NoSuchJobError,
                          NotReadableJobError,
                          RetryableJobError,
                          FailedJobError,
