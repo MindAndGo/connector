@@ -66,6 +66,8 @@
                     <field name="model_id"/>
                     <filter name="need_review" string="Need Review"
                         domain="[('state', '=', 'need_review')]"/>
+                    <filter name="is_error" string="Need Review"
+                        domain="[('state', '=', 'is_error')]"/>
                     <filter name="reviewed" string="Reviewed"
                         domain="[('state', '=', 'reviewed')]"/>
                    <group string="Group By...">
